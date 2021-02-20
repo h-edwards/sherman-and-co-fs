@@ -1,0 +1,342 @@
+/* Tablet version for 768px */
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    /*
+        --------------------------------
+        Global style for Tablet
+        --------------------------------
+    */
+    
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        max-width: 768px;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 100px 4fr 500px;
+        grid-template-columns: 1fr;
+        border: none;
+    }
+
+    .scroll-up {
+        font-size: 30px;
+        position: fixed;
+        bottom: 50px;
+        right: 30px;
+        background-color: white;
+        border-radius: 50px;
+        width: 35px;
+        text-align: center;
+        border: solid 1px #0094c6;
+    }
+
+    .scroll-up a:visited {
+        color: #0094c6;
+    }
+
+    /*
+        --------------------------------
+        Landing Page style for Tablet
+        --------------------------------
+    */
+
+    #landing-heading {
+        font-size: 2em;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .landing-paragraph {
+        text-align: center;
+        padding: 5% 7%;
+    }
+
+    #landing-paragraph-two {
+        text-align: center;
+    }
+
+    #landing-heading-two {
+        text-align: center;
+        padding: 0;
+    }
+
+    .landing-paragraph-three {
+        text-align: center;
+        padding: 0 7%;
+    }
+
+    .process-icons img {
+        display: block;
+        height: 120px;
+        margin: 5% auto;
+    }
+
+    #landing-image {
+        display: block;
+        max-width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #our-process {
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    h4 {
+        color: #0094c6;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        margin-bottom: 3%;
+    }
+
+    .icons {
+        height: 100px;
+        width: 100px;
+    }
+
+    #landing-button {
+        display: block;
+        max-width: 100px;
+        margin: 10% auto;
+        color: white;
+        background-color: #ff8c42;
+        padding: 2% 5%;
+        font-size: 19px;
+        font-family: 'Open Sans', sans-serif;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    #landing-button:active {
+        border: none;
+    }
+
+    /*
+        --------------------------------
+        About Page style for Tablet
+        --------------------------------
+    */
+
+    #about-heading-one {
+        font-size: 1.5em;
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    #about-paragraph {
+        text-align: center;
+    }
+
+    #about-image {
+        display: block;
+        margin: 10% auto;
+        width: 80%;
+    }
+
+    #about-button {
+        display: block;
+        max-width: 100px;
+        margin: 10% auto;
+        color: white;
+        background-color: #ff8c42;
+        padding: 2% 5%;
+        font-size: 19px;
+        font-family: 'Open Sans', sans-serif;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    /*
+        --------------------------------
+        Services Page style for Tablet
+        --------------------------------
+    */
+
+    #services-heading-one {
+        font-size: 1.5em;
+        grid-row: 1/2;
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    #services {
+        grid-row: 2/3;
+        text-decoration: none;
+        list-style-type: none;
+        line-height: 25px;
+        margin-left: 0;
+        color: #0094c6;
+        font-family: 'Open Sans', sans-serif;
+        padding: 0 5%;
+        margin: 2% 0;
+        word-wrap: break-word;
+        text-align: center;
+    }
+
+    #our-service-area {
+        margin-bottom: 25%;
+    }
+
+    #services-image {
+        width: 80%;
+        margin: 5% auto;
+        display: block;
+    }
+
+    #services-button {
+        display: block;
+        max-width: 100px;
+        margin: 10% auto;
+        color: white;
+        background-color: #ff8c42;
+        padding: 2% 5%;
+        font-size: 19px;
+        font-family: 'Open Sans', sans-serif;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    /*
+        --------------------------------
+        Contact Page style for Tablet
+        --------------------------------
+    */
+
+    #contact-section {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        margin-bottom: 10%;
+    }
+
+    #contact-heading-one {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    #contact-paragraph {
+        text-align: center;
+        margin: 0% 5% 10% 5%;
+    }
+
+    #contact-image {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #contact-form {
+        text-align: center;
+        display: block;
+        margin: 10% auto;
+        grid-row: 3/4;
+        color: #0094c6;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    label {
+        text-align: left;
+    }
+
+    input {
+        width: 80%;
+        border: none;
+        border-bottom: 1.5px solid #0094c6;
+        outline: none;
+        justify-content: center;
+    }
+
+    #enquiry-form:active:after {
+        height: 500%;
+        resize: horizontal;
+    }
+
+    #enquiry {
+        border: 0;
+        border-bottom: 1.5px solid #0094c6;
+        width: 80%;
+    }
+
+    #enquiry:active {
+        border: 0;
+        outline: 0;
+    }
+
+    textarea {
+        outline: none;
+        resize: none;
+    }
+
+    #contact-button {
+        display: block;
+        text-align: center;
+        max-width: 200px;
+        margin: 10% auto;
+        color: white;
+        background-color: #ff8c42;
+        padding: 2% 8%;
+        font-size: 19px;
+        font-family: 'Open Sans', sans-serif;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    /*
+        --------------------------------
+        T's & C's Page style for Tablet
+        --------------------------------
+    */
+
+    #terms-heading-one {
+        font-size: 20px;
+        font-weight: bold;
+        grid-row: 1/2;
+        margin-top: 10%;
+    }
+
+    .terms-heading-two {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: left;
+    }
+
+    .terms-heading-three {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    /*
+        -------------------------------------
+        Privacy Policy Page style for Tablet
+        -------------------------------------
+    */
+
+    #privacy-heading-one {
+        font-size: 20px;
+        font-weight: bold;
+        grid-row: 1/2;
+        margin-top: 10%;
+    }
+
+
+    .privacy-list {
+        color: #0094c6;
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 8%;
+    }
+}

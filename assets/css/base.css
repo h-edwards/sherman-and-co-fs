@@ -1,0 +1,88 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #0094c6;
+    font-family: "Open Sans", sans-serif;
+    word-wrap: break-word;
+    padding: 0 5%;
+}
+
+h1 {
+    font-size: 2.4em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: 0.8em;
+}
+
+p {
+    color: #0094c6;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    padding: 0 5%;
+    margin: 2% 0;
+    word-wrap: break-word;
+}
+
+li {
+    text-decoration: none;
+    line-height: 25px;
+    color: #0094c6;
+    font-family: "Open Sans", sans-serif;
+    padding: 0 2%;
+    margin: 2% 0;
+    word-wrap: break-word;
+}
+
+button {
+    display: block;
+    max-width: 120px;
+    margin: 7% auto;
+    color: white;
+    background-color: #ff8c42;
+    padding: 1% 4%;
+    font-size: 1.4em;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.process-icons img {
+    max-height: 140px;
+    margin: 5% auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.question {
+    font-size: 1.2em;
+    color: white;
+    margin: 5% 0;
+    padding: 4% 1%;
+    background-color: #0094c6;
+    text-align: center;
+}
