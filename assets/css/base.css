@@ -43,6 +43,24 @@ p {
     word-wrap: break-word;
 }
 
+.landing-links {
+    text-decoration: none;
+    color: #0094c6;
+}
+
+.landing-links:visited {
+    text-decoration: none;
+    color: #0094c6;
+}
+
+.landing-links:active {
+    color: #0094c6;
+}
+
+.landing-links:focus {
+    color: #0094c6;
+}
+
 li {
     text-decoration: none;
     line-height: 25px;
