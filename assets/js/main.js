@@ -1,24 +1,22 @@
 $(document).ready(function () {
-    $("#contactForm").submit(function(e){
+    $("#contactForm").submit(function (e) {
         e.preventDefault();
-        var postData        = $(this).serializeArray(),
-            formURL         = $(this).attr("action"),
-            $cfResponse     = $('#contactFormResponse'),
-            $cfsubmit       = $("#contact-button"),
-            cfsubmitText    = $cfsubmit.text();
+        var postData = $(this).serializeArray(),
+            formURL = $(this).attr("action"),
+            $cfResponse = $('#contactFormResponse'),
+            $cfsubmit = $("#contact-button"),
+            cfsubmitText = $cfsubmit.text();
         $cfsubmit.text("Sending...");
         $.ajax(
             {
-                url : formURL,
+                url: formURL,
                 type: "POST",
-                data : postData,
-                success:function(data)
-                {
+                data: postData,
+                success: function (data) {
                     $cfResponse.html(data);
                     $cfsubmit.text(cfsubmitText);
                 },
-                error: function(data)
-                {
+                error: function (data) {
                     alert("Error occurd! Please try again");
                 }
             });
