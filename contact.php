@@ -12,10 +12,10 @@
         <div class="contact-field">
             <form id="contact-form" method="POST" action="parts/server.php">
                 <label for="name"> Full Name: </label><br>
-                <input id= "name" type="text" required><br><br><br>
+                <input id="name" name="name" type="text" required><br><br><br>
                 
                 <label for="email"> Email Address: </label><br>
-                <input id= "email" type="text" required><br><br><br>
+                <input id="email" type="email" name="email" required><br><br><br>
                 
                 <label for="message" id="enquiry-form"> Enquiry: </label><br>
                 <textarea name="message" id="enquiry" required rows="10" cols="100"></textarea>

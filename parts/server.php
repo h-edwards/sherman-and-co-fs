@@ -2,8 +2,9 @@
 	$to = 'info@shermanfs.co.uk';
 	$errors = array();
 ​
+​
 	// Check if name has been entered
-	if (!isset($_POST['name'])) {
+	if ( ! isset( $_POST['name'] ) ) {
 		$errors['name'] = 'Please enter your name';
 	}
 	
@@ -16,7 +17,7 @@
 	if (!isset($_POST['message'])) {
 		$errors['message'] = 'Please enter your message';
 	}
-​
+
 	$errorOutput = '';
 ​
 	if(!empty($errors)){
