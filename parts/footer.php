@@ -13,7 +13,7 @@
                 <h4>Legal</h4>
                 <a class="links" href="privacy">Privacy Policy</a>
                 <a class="links" href="terms">Terms and Conditions</a>
-                <p id="copyright">Copyright © Sherman & Co Financial Services</p>
+                <p id="copyright">Copyright &copy; <?php date('Y'); ?> Sherman & Co Financial Services</p>
             </div>
         </article>
 

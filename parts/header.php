@@ -1,3 +1,9 @@
+<?php 
+$current_link = (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] === "on" ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,10 +27,11 @@
 
         <nav class="main-menu">
             <ul>
-                <li><a href="index.php" class="current">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="services.php">Services</a></li>
-                <li><a href="contact.php">Contact</a></li>
+
+                <li><a href="/" class="<?= $current_link == 'https://www.shermanfs.co.uk/' ? 'current' : null ?>">Home</a></li>
+                <li><a href="/about" class="<?= $current_link == 'https://www.shermanfs.co.uk/about' ? 'current' : null ?>">About</a></li>
+                <li><a href="/services" class="<?= $current_link == 'https://www.shermanfs.co.uk/services' ? 'current' : null ?>">Services</a></li>
+                <li><a href="/contact" class="<?= $current_link == 'https://www.shermanfs.co.uk/contact' ? 'current' : null ?>">Contact</a></li>
             </ul>
         </nav>
 
