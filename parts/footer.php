@@ -20,10 +20,10 @@
         <article>
             <div>
                 <h4>Quick Links</h4>
-                <a class="links" href="index">Home</a>
-                <a class="links" href="about">About</a>
-                <a class="links" href="services">Services</a>
-                <a class="links" href="contact">Contact</a>
+                <a class="links" href="index.php">Home</a>
+                <a class="links" href="about.php">About</a>
+                <a class="links" href="services.php">Services</a>
+                <a class="links" href="contact.php">Contact</a>
             </div>
         </article>
     </footer>
