@@ -1,49 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sherman & Co Financial Services </title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="assets/images/compressed-logo.png" />
-    <script src="https://kit.fontawesome.com/ec71fb7b6f.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-
-    <header>
-        <div>
-            <a href="index"><img id="logo" src="assets/images/sherman-and-co-logo.png"
-                    alt="Sherman & CO Financial Services Logo"></a>
-        </div>
-
-        <nav class="main-menu">
-            <ul>
-                <li><a href="index">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="services">Services</a></li>
-                <li><a href="contact">Contact</a></li>
-            </ul>
-        </nav>
-
-        <nav>
-            <div id="menuToggle">
-                <input type="checkbox" />
-                <span></span>
-                <span></span>
-                <span></span>
-
-                <ul id="menu">
-                    <li><a href="index">Home</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="services">Services</a></li>
-                    <li><a href="contact.">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+<?php require "parts/header.php"; ?>
 
     <section>
 
@@ -221,38 +176,4 @@
 
     </section>
 
-    <footer>
-        <article>
-            <h4>Social Media</h4>
-            <span class="social-media">
-                <!-- <a href="#"><i class="fab fa-instagram-square"></i></a> -->
-                <a href="https://www.linkedin.com/in/romaynesherman"><i class="fab fa-linkedin"></i></a>
-                <!-- <a href="#"><i class="fab fa-twitter-square"></i></a> -->
-            </span>
-        </article>
-
-        <article>
-            <div>
-                <h4>Legal</h4>
-                <a class="links" href="privacy">Privacy Policy</a>
-                <a class="links" href="terms">Terms and Conditions</a>
-                <p id="copyright">Copyright © Sherman & Co Financial Services</p>
-            </div>
-        </article>
-
-        <article>
-            <div>
-                <h4>Quick Links</h4>
-                <a class="links" href="index">Home</a>
-                <a class="links" href="about">About</a>
-                <a class="links" href="services">Services</a>
-                <a class="links" href="contact">Contact</a>
-            </div>
-        </article>
-    </footer>
-
-    <script src="assets/js/lib/cookie.notice.js"></script>
-
-</body>
-
-</html>
+    <?php require "parts/footer.php"; ?>

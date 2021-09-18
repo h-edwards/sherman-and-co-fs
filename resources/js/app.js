@@ -1,3 +1,6 @@
+import $ from 'jquery';
+require('cookie-notice');
+
 $(document).ready(function () {
     $("#contactForm").submit(function (e) {
         e.preventDefault();
